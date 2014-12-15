@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="fr" datatype="plaintext" original="messages" date="2014-12-15T12:25:26Z" product-name="arc_downloader">
+		<header/>
+		<body>
+			<trans-unit id="key">
+				<source>Protect the folder (Frontend throw 403)</source>
+                                <target state="translated">Protéger le dossier (erreur 403 frontend)</target>
+			</trans-unit>
+			<trans-unit id="cm.htunprotect">
+				<source>Unprotect the folder</source>
+                                <target state="translated">Enlever la protection</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

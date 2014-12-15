@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-12-02T05:15:27Z" product-name="arc_downloader">
+		<header/>
+		<body>
+			<trans-unit id="cm.htprotect">
+				<source>Protect the folder (Frontend throw 403)</source>
+			</trans-unit>
+			<trans-unit id="cm.htunprotect">
+				<source>Unprotect the folder</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
