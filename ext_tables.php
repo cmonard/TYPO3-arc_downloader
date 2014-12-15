@@ -1,6 +1,7 @@
 <?php
-if (!defined ('TYPO3_MODE')) die ('Access denied.');
-
+if (!defined('TYPO3_MODE')) {
+        die('Access denied.');
+}
 
 $GLOBALS['TBE_MODULES_EXT']['xMOD_alt_clickmenu']['extendCMclasses'][$_EXTKEY] = array(
     'name' => 'Archriss\\ArcDownloader\\Service\\ContextMenuOptions',

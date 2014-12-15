@@ -3,7 +3,7 @@
 	<file source-language="fr" datatype="plaintext" original="messages" date="2014-12-15T12:25:26Z" product-name="arc_downloader">
 		<header/>
 		<body>
-			<trans-unit id="key">
+			<trans-unit id="cm.htprotect">
 				<source>Protect the folder (Frontend throw 403)</source>
                                 <target state="translated">Protéger le dossier (erreur 403 frontend)</target>
 			</trans-unit>
