@@ -22,6 +22,7 @@ class ContextMenuOptions {
                         $fileObject = \TYPO3\CMS\Core\Resource\ResourceFactory::getInstance()->retrieveFileOrFolderObject($table);
                         // add item only for directory
                         if ($fileObject && $fileObject instanceof \TYPO3\CMS\Core\Resource\Folder) {
+                                $menuItems[] = 'spacer';
                                 list($mode, $icon) = $this->tryToFindMode($table);
                                 $menuItems[$mode] = $this->FILE_protect($table, $mode, $icon, $parentObject);
                         }
